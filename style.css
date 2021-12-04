@@ -1,0 +1,86 @@
+#overview{
+    background:rgb(12, 12, 15);
+}
+.navBar{
+    width:100%;
+    height:70px;
+    background:rgb(51, 51, 51);
+    color:rgb(240, 61, 16)
+}
+.title{
+    height: 100%;
+    font-size:45px;
+    display:flex;
+    justify-content: space-around;
+}
+.displayContainte{
+    margin:.25rem!important;
+}
+.Container{
+    display: flex;
+    justify-content:center;
+}
+.Cover{
+    display: flex;
+    justify-content:center;
+}
+.thumbnail{
+    padding: 5%;
+    max-width: 159px;
+    border-radius:50px;
+    background-color:rgb(151, 35, 5);
+    box-shadow: 3px 7px 10px black;
+    display: flex;
+    justify-content:center;
+}
+.animeThumbnailContainer{
+    margin-top:20px;
+    transition: 0.2s;
+}
+.animeThumbnailContainer:hover{
+    margin-top: 10px;
+    transition: 0.2s;
+}
+.animeNameContainer{
+    position:absolute;
+    margin-top: -10px;
+    color:rgba(255, 255, 255, 0);
+    text-align:center;
+    transition: 0.2s;
+}
+.animeName{
+    width: 159px;
+    height:132px;
+    border-bottom-left-radius:  50px;
+    border-bottom-right-radius: 50px;
+    margin-top: -122px;
+    transition: 0.5s;
+}
+.animeName:hover{
+    background-color:rgba(0, 0, 0, 0.431);
+    color:rgb(255, 255, 255);
+    text-shadow: 2px 5px 5px #000;
+    transition: 0.5s;
+}
+#button{
+    border-color:rgb(240, 61, 16);
+    color:rgb(240, 61, 16);
+    width:110px;
+    margin-bottom:-90px;
+}
+.coverTitle{
+    display: flex;
+    color:rgb(255, 255, 255);
+    text-shadow: 2px 3px 7px #000;
+    margin-left: -8px;
+}
+.coverTitle2{
+    display: flex;
+    color:rgb(255, 255, 255);
+    text-shadow: 2px 3px 7px #000;
+    margin-left: -8px;
+}
+.coverImg{
+    max-width:1670px;
+    max-height: 400px;
+}
