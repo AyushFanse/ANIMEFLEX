@@ -147,13 +147,13 @@ const moreInfo =async (n)=>{
                     </nav>
                     <div class="coverInfo  w-100">
                         <div class="coverTitleHead mt-3 m-1">
-                            <h1 class="coverTitle align-self-end col-md-4">${Name}</h1><h3 class="col-4 coverTitle2 align-self-end">${japName}</h3>
+                            <h1 class="coverTitle align-self-end col-12 col-sm-9 col-md-7 col-lg-5">${Name}</h1><h3 class="col-12 col-sm-9 col-md-7 col-lg-5 coverTitle2 align-self-end">${japName}</h3>
                         </div>
                     </div>
                     <div class="m-2">
-                        <div class="row"><h5 class="col-2 text-muted">${startDate}</h5><h5 class="col-2 text-muted">Avg. Rating${averageRating}</h5></div>
-                        <div class="row"><h5 class="col-2 text-muted">Age Rating: ${ageRating}</h5><h5 class="col-8 text-muted">Age Rating Guide: ${ageRatingGuide}</h5></div>
-                        <div class="row"><h4 class="col-7  text-muted">Totle Episodes: ${episodeCount}</h4></div>
+                        <div class="row"><h5 class="col-6 col-sm-5 col-md-4 col-lg-3 text-muted">${startDate}</h5><h5 class="col-6 col-sm-5 col-md-4 col-lg-3 text-muted">Avg. Rating${averageRating}</h5></div>
+                        <div class="row"><h5 class="col-6 col-sm-5 col-md-4 col-lg-3 text-muted">Age Rating: ${ageRating}</h5><h5 class="col-6 col-sm-7 col-md-8 col-lg-8 text-muted">Age Rating Guide: ${ageRatingGuide}</h5></div>
+                        <div class="row"><h4 class="col-9  text-muted">Totle Episodes: ${episodeCount}</h4></div>
                     </div>
                     <div class="discription">
                         <h5 class="m-2 text-muted">${description}</h5>
