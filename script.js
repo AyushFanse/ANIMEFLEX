@@ -151,8 +151,8 @@ const moreInfo =async (n)=>{
                         </div>
                     </div>
                     <div class="m-2">
-                        <div class="row"><h5 class="col-6 col-sm-5 col-md-4 col-lg-3 text-muted">${startDate}</h5><h5 class="col-6 col-sm-5 col-md-4 col-lg-3 text-muted">Avg. Rating${averageRating}</h5></div>
-                        <div class="row"><h5 class="col-6 col-sm-5 col-md-4 col-lg-3 text-muted">Age Rating: ${ageRating}</h5><h5 class="col-6 col-sm-7 col-md-8 col-lg-8 text-muted">Age Rating Guide: ${ageRatingGuide}</h5></div>
+                        <div class="row"><h5 class="col-4 col-sm-5 col-md-4 col-lg-3 text-muted">${startDate}</h5><h5 class="col-8 col-sm-5 col-md-4 col-lg-3 text-muted">Avg. Rating${averageRating}</h5></div>
+                        <div class="row"><h5 class="col-4 col-sm-5 col-md-4 col-lg-3 text-muted">Age Rating: ${ageRating}</h5><h5 class="col-8 col-sm-7 col-md-8 col-lg-8 text-muted">Age Rating Guide: ${ageRatingGuide}</h5></div>
                         <div class="row"><h4 class="col-9  text-muted">Totle Episodes: ${episodeCount}</h4></div>
                     </div>
                     <div class="discription">
